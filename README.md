@@ -1,2 +1,3 @@
 # hwd
 hello world
+init
