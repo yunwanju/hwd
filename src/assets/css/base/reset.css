@@ -1,0 +1,210 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+code,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+dialog,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background: #eee;
+  font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  float: none !important;
+}
+
+table,
+th,
+td,
+select,
+img,
+input,
+object {
+  vertical-align: middle;
+  font-family: 'Microsoft Yahei', '黑体', Arial, Helvetica, sans-serif;
+}
+
+:focus {
+  outline: 0;
+}
+
+input,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:#333;
+  text-decoration: none;
+}
+
+
+img {
+  border: none;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="button"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+  font-family: 'Microsoft Yahei', '黑体', Arial, Helvetica, sans-serif;
+}
+
+dfn {
+  font-style: normal;
+  font-family: Arial;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-icon {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  background: url('../../images/icon.png') no-repeat;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fs14{
+  font-size:14px;
+}
+
+.high-light {
+  color: red;
+}
+
+.high-light-selected {
+  background: red !important;
+  color: #fff !important;
+}
+
+.alink {
+  cursor: pointer;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+.column-search .search-form .radio span {
+  font-size: 14px;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  margin-right: 0;
+  color: #fff;
+  vertical-align: top;
+}
+
+.radio .el-radio__inner::after {
+  width: 6px;
+  height: 6px;
+}
+
+.radio .el-radio__original {
+  display: none;
+}
+
+.column-search .search-form .radio span.el-radio__label {
+  width: auto;
+  padding-left: 5px;
+}
+
+.radio .el-radio__input.is-checked + .el-radio__label {
+  color: #fff;
+}
+
+.tt-menu3 .hitclass {
+  color: #218fc4;
+}
+
+.search-combox-input-wrap .el-input__inner {
+  border: none;
+}

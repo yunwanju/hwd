@@ -1,0 +1,37 @@
+.crumbs {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.crumbs strong {
+  color: #006F6B;
+  font-weight: normal
+}
+
+.crumbs a {
+  font-family: "宋体";
+  margin: 1px 0;
+  line-height: 26px;
+}
+
+.crumbs .container {
+  min-width: 980px;
+  max-width: 1180px;
+  padding-left: 20px;
+}
+
+.crumbs i {
+  font-style: normal
+}
+
+.condition a {
+  font-size: 12px;
+  border: 1px solid #dadfe2;
+  background: #fdfdfd;
+  padding: 0 30px 0 5px;
+  margin: 1px 0;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}

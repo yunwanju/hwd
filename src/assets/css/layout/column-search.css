@@ -1,0 +1,179 @@
+.arrow-line-gray-down {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: url('../../images/icon.png') no-repeat;
+  background-position: -0px -60px;
+  right: 13px;
+  top: 21px
+}
+.left-drop {
+  width: .6rem;
+}
+.right-search {
+ flex: 1;
+}
+.column-search {
+  height: 100vh;
+  padding: .2rem .1rem;
+  box-sizing: border-box;
+}
+.column-search>>>.van-dropdown-menu__bar {
+  box-shadow: none;
+}
+.column-search>>>.van-search {
+  padding: 7px 0 7px 12px;
+}
+.search-wrap {
+  display: flex;
+  padding-bottom: .1rem;
+  border-bottom: .01rem solid #eee;
+}
+.btns {
+  display: flex;
+  height: .44rem;
+  margin-top: .3rem;
+}
+.btns > div {
+  flex: 1;
+}
+.btn {
+  flex: 1;
+  text-align: center;
+  font-size: .16rem;
+  background-color: #158ec6;
+  line-height: .44rem;
+  color: #fff;
+  height: 100%;
+  width: 1.42rem;
+  margin: 0 auto;
+}
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.btn-search {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background: #083F3D;
+  border: none
+}
+
+.areajSelect {
+  position: absolute;
+  background: #fff;
+  top: 0px;
+  z-index: 101;
+  width: 100px;
+  height: 50px
+}
+
+.areajSelect>div {
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+  padding-right: 30px;
+  margin: 14px 0;
+  border-right: 1px solid #d9d9d9;
+  cursor: default;
+}
+
+.jSelectList {
+  position: absolute;
+  width: 98px;
+  border: 1px solid #eaeaea;
+  border-top: none;
+  background: #fff;
+  top: 48px;
+  display: none
+}
+
+.jSelectList li.current a {
+  color: #fff;
+  background: #218fc4
+}
+
+.jSelectList>li>a {
+  color: #999;
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  text-indent: 12px;
+  font-size: 12px;
+}
+
+.areajSelect.current .jSelectList {
+  display: block
+}
+
+.search-combox-input {
+  font-size: 14px;
+  padding: 5px 0;
+  line-height: 20px;
+  border: none;
+  width: 100%;
+  display: block
+}
+
+.search-combox-input-wrap {
+  position: relative;
+  padding-right: 140px;
+  background: #fff;
+  height: 50px;
+}
+
+.search-combox-input-wrap .c-empty {
+  width: 18px;
+  height: 18px;
+  background-position: -710px -256px;
+  position: absolute;
+  right: 110px;
+  top: 16px;
+  display: none
+}
+
+.search-hd {
+  position: absolute;
+  text-align: left;
+  line-height: 50px;
+  bottom: -30px;
+}
+
+.search-hd>div {
+  float: left;
+  line-height: 24px;
+  line-height: 48px;
+  height: 48px;
+  position: relative
+}
+
+.search-hd>div.current .explain {
+  display: block
+}
+
+.search-hd>div .explain {
+  display: none;
+  position: absolute;
+  left: -10px;
+  top: 55px;
+  width: 140px;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 4px #ccc;
+  box-shadow: 0 0 4px #ccc;
+  z-index: 9
+}
+
+.search-hd>div a {
+  font-size: 16px;
+  color: #fff;
+  display: block
+}

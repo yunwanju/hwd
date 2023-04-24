@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <title>外部知识库</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script id="scriptadd" type="text/javascript" src=""></script>
+        <script type="text/javascript">
+            var scripts = document.getElementById('scriptadd');
+            var localUrl = window.location
+            var src = localUrl.protocol + '//' + localUrl.host +'/api'
+            scripts.setAttribute('src',src+'/js/base.js')
+        </script>
+        <!--<script type="text/javascript" src="/static/js/HM4hUBT0dDOn80IV.js"></script>-->
+    </body>
+</html>

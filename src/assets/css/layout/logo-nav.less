@@ -1,0 +1,57 @@
+.logo-nav {
+  background: #006f6b;
+  position: relative;
+  z-index: 2000;
+}
+
+.logo-nav .logo {
+  width: 1.08rem;
+  height: 0.3rem;
+  background: url('../../images/logo-white.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 0.08rem;
+  /*background-color: #006F6B;*/
+}
+
+.nav-wrap {
+  display: flex;
+  height: .4rem;
+  line-height: .4rem;
+  overflow: scroll;
+  background: #218FC4;
+
+  li {
+    text-align: center;
+    padding: 0 .14rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 0.7;
+    position: relative;
+    font-size: .16rem;
+  }
+  .current {
+    color: #fff;
+    opacity: 1;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  // .current::after {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: .05rem;
+  //   height: .02rem;
+  //   background: #fff;
+  //   left: .1rem;
+  //   right: .1rem;
+  //   background-image: initial;
+  //   background-position-x: initial;
+  //   background-position-y: initial;
+  //   background-size: initial;
+  //   background-attachment: initial;
+  //   background-origin: initial;
+  //   background-clip: initial;
+  //   background-color: rgb(255, 255, 255);
+  // }
+}
